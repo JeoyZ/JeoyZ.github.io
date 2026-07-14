@@ -35,7 +35,7 @@ Then open `http://localhost:8000/`. A local server is required for the Updates J
 
 ## Information still needed
 
-Google Scholar, ResearchGate, GitHub, and ORCID links are configured in `index.html`. A LinkedIn URL has not been provided, so no LinkedIn link is displayed. The personal phone number in the CV is intentionally not published on the site.
+Google Scholar, ResearchGate, GitHub, and ORCID links are configured in `index.html`. A LinkedIn URL has not been provided, so no LinkedIn link is displayed. The public CV and website do not display an email address or phone number.
 
 ## Deploying to GitHub Pages
 
