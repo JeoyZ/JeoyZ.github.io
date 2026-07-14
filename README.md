@@ -30,12 +30,12 @@ Then open `http://localhost:8000/`. A local server is required for the Updates J
 - **Bio and profile links:** edit the hero section in `index.html`.
 - **Updates:** add a new object to the top of `data/updates.json`, using only the precision supported by the source (for example, `2026` rather than inventing a day).
 - **Publications:** add the item to `publications.html`, preserve its status, and optionally add it to the selected list in `index.html`.
-- **Portrait:** replace `assets/images/profile-placeholder.svg` with a web-optimized portrait. Either keep that filename or update the `src` and Open Graph image in `index.html`. Keep meaningful alt text.
+- **Portrait:** replace `assets/images/profile.jpg` with a web-optimized portrait, keeping the filename so the page and Open Graph image remain valid. Keep meaningful alt text.
 - **CV:** replace `assets/files/PD_application_CV.pdf` with the new file, keeping the same filename so links remain valid.
 
 ## Information still needed
 
-The CV did not provide resolvable URLs for Google Scholar, GitHub, LinkedIn, or ResearchGate. Replace the clearly marked placeholders in `index.html` when those links are available. The personal phone number in the CV is intentionally not published on the site.
+Google Scholar, ResearchGate, GitHub, and ORCID links are configured in `index.html`. A LinkedIn URL has not been provided, so no LinkedIn link is displayed. The personal phone number in the CV is intentionally not published on the site.
 
 ## Deploying to GitHub Pages
 
