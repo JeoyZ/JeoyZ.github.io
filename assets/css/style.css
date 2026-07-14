@@ -39,7 +39,10 @@ h3{font-size:1.18rem;margin:.2rem 0 .4rem}
 .authors,.venue{display:block;color:var(--muted);font-size:.92rem}
 .page-head{max-width:780px;margin-bottom:4rem}
 .page-head h1{font-size:clamp(2.6rem,6vw,4.7rem)}
-.topic,.timeline-item,.award{padding:1.6rem 0;border-top:1px solid var(--line)}
+.topic,.research-topic,.timeline-item,.award{padding:1.6rem 0;border-top:1px solid var(--line)}
+.research-list{max-width:880px}
+.research-topic{padding:2.2rem 0}
+.research-topic>p:first-of-type{font-size:1.02rem}
 .topic-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0 3rem}
 .tagline{color:var(--muted);font-size:.92rem}
 .methods{font-size:.9rem;color:var(--muted)}
