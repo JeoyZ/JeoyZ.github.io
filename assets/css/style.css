@@ -43,6 +43,8 @@ h3{font-size:1.18rem;margin:.2rem 0 .4rem}
 .research-list{max-width:880px}
 .research-topic{padding:2.2rem 0}
 .research-topic>p:first-of-type{font-size:1.02rem}
+.references>strong{display:block;margin-bottom:.45rem;color:var(--ink)}
+.citation{display:block;margin:.55rem 0;padding-left:1.1rem;text-indent:-1.1rem}
 .topic-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0 3rem}
 .tagline{color:var(--muted);font-size:.92rem}
 .methods{font-size:.9rem;color:var(--muted)}
